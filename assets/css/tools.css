@@ -1,0 +1,314 @@
+/*--------------------------------------------------------------
+# tolls
+--------------------------------------------------------------*/
+
+.tools-main {
+    max-width: 1286px;
+    margin: 0 auto;
+}
+
+.tools-block {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.tools-text {
+    font-size: 75px;
+    color: #F2CCB6;
+    opacity: .1;
+    font-family: Poppins, sans-serif; 
+}
+
+.work-header {
+    position: absolute;
+    color: #737373;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Lobster', sans-serif;
+}
+
+.line {
+    display: block;
+    position: absolute;
+    width: 80px;
+    height: 67px;
+    border-bottom: 3px solid #F2CCB6;
+    border-radius: 3%;
+ }
+
+.tools {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-inline: 10px;
+    align-items: flex-start;
+}
+
+.tools img {
+    margin-inline: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tools div {
+    max-width: 1220px;
+}
+
+/* icon */
+.ubuntu {
+    height: 128px;
+    
+}
+
+.linux {
+    background-size: 108px;
+    height: 138px;
+    width: 110px;
+}
+
+.jira {
+    height: 128px;
+    width: 300px;
+    margin-inline: 0 !important; 
+}
+
+.mariadb {
+    height: 128px;
+}
+
+.mysql {
+    height: 128px;
+}
+
+.devtools {
+    height: 128px;
+    margin-left: 0 !important; 
+}
+
+.github {
+    height: 128px;
+}
+
+.postman {
+    height: 128px;
+}
+
+.good {
+    color: #272829;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.tools h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+    padding-top: 30px;
+  }
+
+/*--------------------------------------------------------------
+# Scaling
+--------------------------------------------------------------*/
+
+@media (max-width: 1040px) {
+    .tools div {
+        max-width: 860px;
+    }
+
+    .tools img {
+        margin: 10px;
+    }
+
+    .tools-text {
+        font-size: 55px;
+    }
+
+    .ubuntu {
+        height: 96px;
+    }
+    
+    .linux {
+        height: 104px;
+        width: 83px;
+    }
+    
+    .jira {
+        height: 96px;
+        width: 200px;
+    }
+    
+    .mariadb {
+        height: 96px;
+    }
+    
+    .mysql {
+        height: 96px;
+    }
+    
+    .devtools {
+        height: 96px;
+    }
+    
+    .github {
+        height: 96px;
+    }
+    
+    .postman {
+        height: 96px;
+    }
+    
+}
+
+@media (max-width: 650px) {
+
+    .tools div {
+        max-width: 435px;
+    }
+}
+
+
+@media (max-width: 455px) {
+
+    .tools div {
+        max-width: 340px;
+    }
+
+    .tools-text {
+        font-size: 40px;
+    }
+
+    .good {
+        font-size: 19.2px;
+    }
+
+    .work-header {
+        font-size: 24px;
+    }
+
+    .ubuntu {
+        height: 72px;
+    }
+    
+    .linux {
+        height: 78px;
+        width: 62px;
+    }
+    
+    .jira {
+        height: 72px;
+        width: 150px;
+    }
+    
+    .mariadb {
+        height: 72px;
+    }
+    
+    .mysql {
+        height: 72px;
+    }
+    
+    .devtools {
+        height: 72px;
+    }
+    
+    .github {
+        height: 72px;
+    }
+    
+    .postman {
+        height: 72px;
+    }
+    
+}
+
+@media (max-width: 355px) {
+    .tools div {
+        max-width: 320px;
+    }
+
+    .tools-text {
+        font-size: 35px;
+    }
+
+    .good {
+        font-size: 15.36px;
+    }
+
+    .work-header {
+        font-size: 20px;
+    }
+
+    .ubuntu {
+        height: 54px;
+    }
+    
+    .linux {
+        height: 58px;
+        width: 47px;
+    }
+    
+    .jira {
+        height: 54px;
+        width: 113px;
+    }
+    
+    .mariadb {
+        height: 54px;
+    }
+    
+    .mysql {
+        height: 54px;
+    }
+    
+    .devtools {
+        height: 54px;
+    }
+    
+    .github {
+        height: 54px;
+    }
+    
+    .postman {
+        height: 54px;
+    }
+    
+}
+
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+
+.btn-text {
+    font-size: 20px;
+    color: #050d18;
+    padding-inline: 16px;
+    font-family: 'Lobster', sans-serif;
+    margin: 0;
+}
+
+.btn-resume {
+    background-color: #e4edf9;
+    border-radius: 3%;
+    border-color: #1f5297;
+}
+
+
+/*--------------------------------------------------------------
+# Contact img
+--------------------------------------------------------------*/
+
+.background-qa {
+    background: url("../img/фон.png") top center no-repeat;
+    width: 100%;
+    height: 290px;
+}
+
+.qa {
+    font-size: 30px !important;
+    margin: 0;
+    padding: 0;
+}
