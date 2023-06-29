@@ -330,3 +330,11 @@ background: #149ddd;
     margin-bottom: 5px;
     color: #050d18;
 }
+
+.email-text a{
+    color: #173b6c;
+}
+
+.phone-text a {
+    color: #173b6c;
+}
